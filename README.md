@@ -1,6 +1,8 @@
 # terminal-photo-viewer
 view images in the terminal using ansi escape codes and python
 
+### !! Only tested on `Ubuntu 20.04.3 LTS` with `python version 3.8.10`
+
 ## Dependencies
 ### `Pillow`
 To install:
