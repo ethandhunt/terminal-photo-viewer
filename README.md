@@ -1,7 +1,7 @@
 # terminal-photo-viewer
 view images in the terminal using ansi escape codes and python
 
-[example photo](Screenshot from 2021-11-13 14-03-50.png)
+![example photo](Screenshot from 2021-11-13 14-03-50.png)
 
 ### !! Only tested on `Ubuntu 20.04.3 LTS` with `python version 3.8.10`
 
