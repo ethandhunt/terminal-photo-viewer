@@ -16,6 +16,12 @@ python3 -m pip install --upgrade Pillow
 ## How to use from terminal
 `python3 main.py imagePath.jpg` renders imagePath.jpg
 
+`python3 video.py videoPath.mp4` renders video then displays it with audio (long time to render, high frame rate, high memory, sometimes crashes on long files)
+
+`python3 videoLo.py videoPath.mp4` displays video without prerendering, also with audio (low frame rate)
+
+`python3 save.py imagePath.jpg outputPath.txt` saves an image in the given output file, if you cat the output file it should display correctly
+
 
 ## `main.render(file_path) -> string`
 returns a string of ansi escape codes and characters, if printed should display in terminal
